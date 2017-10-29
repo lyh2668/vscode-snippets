@@ -3,7 +3,7 @@
     "prefix": "wpy",
     "body": [
       "<template>\n\n</template>\n",
-      "<script>\nexport default class $1 extends wepy.page {\n\n}\n</script>\n",
+      "<script>\nimport wepy from 'wepy'\n\nexport default class $1 extends wepy.page {\n\n}\n</script>\n",
       "<style lang=\"scss\"\n\n</style>\n",
     ],
     "description": "快速生成wpy后缀的代码块"
